@@ -9,4 +9,8 @@ def divison(a,b):
     return a/b if b != a else 0
 
 def subtraction(a,b):
-    return a-b
+    res = a-b
+    if res < 0 :
+        return 0
+    else:
+        return res 
