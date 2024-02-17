@@ -7,3 +7,6 @@ def multiplication(a,b):
 
 def divison(a,b):
     return a/b if b != a else 0
+
+def subtraction(a,b):
+    return a-b
